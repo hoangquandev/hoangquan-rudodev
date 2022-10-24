@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import {  IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoTiktok, } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoTiktok, } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -85,7 +85,7 @@ const Home = () => (
           way to solving real-life problems with code. When not online, he loves
           hanging out with his friends. Currently, heis living off of his own
           product and provides likes and follows (FaceBook, Instagram, TikTok, Shopee)
-          
+
           {/* is living off of his own
           product called{' '} */}
           {/* <NextLink href="/works/inkdrop" passHref scroll={false}>
@@ -199,16 +199,16 @@ const Home = () => (
             title="Hoang Quan"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel 
+            My YouTube channel
             {/* (&gt;100k subs) */}
           </GridItem>
-          <GridItem
+          {/* <GridItem
             href="#"
             title="Inkdrop"
             thumbnail={thumbInkdrop}
           >
             A Markdown note-taking app
-          </GridItem>
+          </GridItem> */}
         </SimpleGrid>
 
         <Box align="center" my={4}>

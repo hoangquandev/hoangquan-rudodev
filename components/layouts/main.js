@@ -23,7 +23,7 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Hoang Quan" />
         <meta name="og:title" content="Hoang Quan" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.hoangquanit.com/card.png" />
+        {/* <meta property="og:image" content="https://www.hoangquanit.com/card.png" /> */}
         <title>Hoang Quan - Porfolio website</title>
       </Head>
 
