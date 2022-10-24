@@ -1,14 +1,14 @@
-import { Container, Heading,  } from '@chakra-ui/react'
+import { Container, Divider, Heading, SimpleGrid, } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
-// import Section from '../components/section'
-// import { WorkGridItem } from '../components/grid-item'
+import Section from '../components/section'
+import { WorkGridItem } from '../components/grid-item'
 
-// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-// import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-// import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+import thumbvr from '../public/images/works/vr_preview.png'
+import thumbFurnishop from '../public/images/works/furnishop_preview.png'
+import thumbHetaChain from '../public/images/works/hetachain-preview.png'
 // import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-// import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-// import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
+import thumbKiimy from '../public/images/works/kiimy-preview.png'
+import thumbTrucKhanh from '../public/images/works/truckhanh-preview.png'
 // import thumbStyly from '../public/images/works/styly_eyecatch.png'
 // import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 // import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
@@ -18,75 +18,67 @@ const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Web App with React
       </Heading>
-      <div style={{height:300}}>Loading . . . !</div>
 
-      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="https://hoangquan-vr-landing-page.vercel.app/" title="VR Website" thumbnail={thumbvr}>
+            Demo Animated Landing Page using ReactJs and Tailwind CSS.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="https://hoangquan-furni-shop.vercel.app/"
+            title="FurniShop"
+            thumbnail={thumbFurnishop}
           >
-            Music recommendation app for iOS
+            Demo Furniture website using ReactJs and Tailwind CSS.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="https://heta.vercel.app/"
+            title="HetaChain Platform"
+            thumbnail={thumbHetaChain}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Open Blockchain Financial Platform for Fintech and Crypto Business
           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section>
+
       </SimpleGrid>
 
       <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Ecommerce Website (php / Wordpress)
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <WorkGridItem id="https://kiimymedical.com/" thumbnail={thumbKiimy} title="Kiimy Medical">
+            A Skincare / Cosmetics Ecommerce Website
+
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            id="https://truckhanh.com/"
+            thumbnail={thumbTrucKhanh}
+            title="Truc Khanh Mini Market"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            Demo minimart website
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        {/* <Section delay={0.3}>
           <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
             A VR Creative tools for fashion brands
           </WorkGridItem>
-        </Section>
-      </SimpleGrid> */}
+        </Section> */}
+      </SimpleGrid>
 
       {/* <Section delay={0.4}>
         <Divider my={6} />
@@ -94,9 +86,9 @@ const Works = () => (
         <Heading as="h3" fontSize={20} mb={4}>
           Old works
         </Heading>
-      </Section>
+      </Section> */}
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
             Twitter client app for iPhone Safari

@@ -18,17 +18,12 @@ const Main = ({ children, router }) => {
         <meta name="description" content="HoangQuan's homepage" />
         <meta name="author" content="Hoang Quan" />
         <meta name="author" content="RudoDev" />
-        {/* <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Takuya Matsuyama" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" /> */}
         <meta property="og:site_name" content="Hoang Quan" />
         <meta name="og:title" content="Hoang Quan" />
         <meta property="og:type" content="website" />
-        {/* <meta property="og:image" content="https://www.craftz.dog/card.png" /> */}
+        <meta property="og:image" content="https://www.hoangquanit.com/card.png" />
         <title>Hoang Quan - Porfolio website</title>
       </Head>
 
