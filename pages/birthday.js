@@ -1,5 +1,5 @@
 
-import { color } from '@chakra-ui/react'
+// import { color } from '@chakra-ui/react'
 import Image from 'next/image'
 import Layout from '../components/layouts/article'
 import bannerImg from '../public/images/birthday/Home.png'
