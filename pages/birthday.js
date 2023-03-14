@@ -42,7 +42,7 @@ const Works = () => (
                         Mechanical Keyboard
                     </li>
                     <li>
-                        Clothes
+                        tinggggg!
                     </li>
                     <li>
                         Monitor
