@@ -33,7 +33,7 @@ const Works = () => (
         <div style={{ textAlign: "center" }}>
             <h2 style={{ fontSize: "30px", color: "#fe5600", textTransform: "uppercase" }}>Important Details</h2>
             <div>
-                Remember to bring your lover to the party!
+                Remember to bring your happiness to the party!
             </div>
             <div>
                 <p style={{ textAlign: 'left', fontSize: "14px", color: "#fe5000", fontStyle: "italic", marginTop: '2rem' }}>My wish list:</p>
