@@ -42,15 +42,21 @@ const Works = () => (
                         Mechanical Keyboard
                     </li>
                     <li>
-                        tinggggg!
-                    </li>
-                    <li>
                         Monitor
                     </li>
                     <li>
                         perfume
                     </li>
+                    <li>
+                        Or ...tinggggg!
+                    </li>
                 </ul>
+                <div style={{ textAlign: "left", fontSize: "14px" }}>
+                    <h1 style={{ fontSize: "20px", textTransform: "uppercase", color: "#fe5600" }}>My Account</h1>
+                    <h2>LE HOANG QUAN</h2>
+                    <p>23099237720</p>
+                    <p>TP bank</p>
+                </div>
             </div>
         </div>
     </Layout>
